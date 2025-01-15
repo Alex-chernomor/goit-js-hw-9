@@ -60,10 +60,13 @@ const inputListener = (e) =>{
     saveDataLS('feedback-form-state', formData);
 } 
 
-formEl.elements.email.value = getFormDataFromLS().email;
-formEl.elements.message.value = getFormDataFromLS().message;
+// formEl.elements.email.value = getFormDataFromLS().email;
+// formEl.elements.message.value = getFormDataFromLS().message;
  
-formEl.addEventListener('input', inputListener);
-formEl.addEventListener('submit', submitListener);
+// formEl.addEventListener('input', inputListener);
+// formEl.addEventListener('submit', submitListener);
+
+console.log(formEl);
+
 
 
